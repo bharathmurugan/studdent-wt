@@ -1,0 +1,37 @@
+<div class="container" id="add">
+    <form id="addForm" action="http://localhost:3000/add" method="POST">
+        
+        <div class="one">
+            <label for="rollNumber">Roll Number</label>
+            <input type="number" id="rollNumber" name="rollNumber" placeholder="Enter Roll Number" required>
+        </div>
+        <br><br>
+        <div class="one">
+            <label for="name">Name</label>
+            <input type="text" id="username" name="username" placeholder="Enter Name" required>
+        </div>
+        <br><br>
+        <div class="one">
+            <label for="contact">Contact Number</label>
+            <input type="tel" id="phone" name="phone" pattern="\d{10}" required placeholder="1234567890">
+        </div>
+        <br><br>
+        <div class="one">
+            <label for="department">Department</label>
+            <input type="text" id="department" name="department" placeholder="Enter Department" required>
+        </div>
+        <br><br>
+        <div class="one">
+            <label for="year">Year of Study</label>
+            <input type="number" id="year" name="year" min="1" max="5" placeholder="Enter Year of Study" required>
+        </div>
+        <br><br>
+        <div class="one">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required>
+        </div>
+        <br><br>
+            <button type="submit">Add User</button>
+        </form>
+
+</div>

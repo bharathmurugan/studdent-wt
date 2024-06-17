@@ -1,0 +1,32 @@
+/* src/app/college/college.component.css */
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-image: url('col.avif');
+  background-size: cover; /* Scales the image to cover the container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
